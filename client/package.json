@@ -1,0 +1,21 @@
+{
+  "name": "realtime-code-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend for realtime collaborative code editor",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "socket.io-client": "^4.7.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.0",
+    "vite": "^4.4.9"
+  }
+}
